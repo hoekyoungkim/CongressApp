@@ -1,0 +1,527 @@
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+
+@media (max-width: 767px) {
+/* Small devices (tablets, 768px and up) */
+
+	#nav {
+		width: 50px;
+		background-color: rgb(60,60,60);
+		float: left;
+		display: inline-block;
+
+		padding-top: 30px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 1500px;
+		margin-bottom: -1500px;
+	}
+
+	.navIcon{
+		float:left;
+	}
+
+	* {
+		font-family: 'Trebuchet MS';
+	}
+
+	a:link,a:visited, a:active, a:hover, a {
+    	text-decoration: none;
+    	background-color:transparent;
+	}
+
+	i {
+		vertical-align: middle;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	ul {
+	
+		list-style: none;
+		padding: 0px;
+	}
+
+	li {
+		vertical-align: middle;
+		color: rgb(196,196,196);
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+	}
+
+	li:hover{
+
+		color: rgb(251,251,251);
+	}
+	img.profileImg{
+
+		width:180px;
+		height: 220px;
+	}
+
+	.smallProfile{
+
+		width: 50px;
+		height: 55px;
+	}
+
+	.smallImg{
+
+		height:20px;
+		width:22px;
+	}	
+
+	#wrapper {
+
+		padding-right: 0;
+		padding-left: 0;
+  		margin-left: auto;
+  		margin-right: auto;
+  		height: 100%;
+  		display: flex;
+  		flex-direction: column;
+  		overflow: hidden;
+	}
+
+
+	#top {
+		background-color: rgb(255,255,255);
+		padding-bottom: 10px;
+		padding-top: 10px;
+		text-align: center;
+
+	}
+
+	#apiLogo {
+		vertical-align: middle;
+		padding-right: 10px;
+		width:30%;
+	}
+
+	#topText{
+		vertical-align: middle;
+		font-family: 'Trebuchet MS';
+		font-size: 1.2em;
+	}
+
+	#content {
+		background-color: rgb(243,243,243);
+		height: 100%;
+		display: inline-block;
+
+	}
+
+	#section-header{
+
+		color: rgb(77,77,77);
+		padding-left: 20px;
+		font-size: large;
+	}
+
+	#section {
+	/*background-color: rgb(60,60,60);*/
+	}
+	#tab-content{
+
+		background-color: rgb(255,255,255);
+	}
+
+	div.panel-heading.makeWhite{
+		background-color: rgb(255,255,255);
+	}
+
+
+	.head_txt{
+		width:150px;
+	}
+
+
+	.carousel-control{
+
+		&.left, &.right{
+
+			background-image: none;
+			.reset-filter();
+		}	
+	}
+
+	.left.carousel-control{
+
+		background-image: none;
+		.reset-filter();
+	}
+
+	#selState{
+		vertical-align: middle;
+		width:110px;
+	}
+
+	input#searchBox{
+		vertical-align: middle;
+		margin-left: 64%;
+		width:125px;
+	}
+
+
+	.panel {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.page-tabs{
+		background-color: white;
+	}	
+	.nav-tabs{
+		margin-bottom: 20px;
+		height: 50px;
+	}
+
+	.floatRight{
+		margin-left: 64%;
+		width: 200px;
+		display: inline;
+	}
+	a.btn_sm{
+		padding: 5px, 5px;
+	}
+	
+	.fa-star{
+		color: rgb(255,209,51);
+		-webkit-text-stroke-width: 1px;
+     	-webkit-text-stroke-color: rgb(60,60,60);
+	}
+
+	li > .fa-star {
+		color: rgb(196,196,196);
+	}
+
+	.floatCtrl {
+		display: flex;
+		justify-content: space-between;		
+		width: 100%;
+	}
+	.switch-container {
+
+	}
+
+	.tab-content > .active {
+
+		padding-top: 20px;
+	}
+	div.page-header{
+		margin: 0;
+	}
+
+	.hideTd{
+
+		display: none;
+	}
+
+	.pdfHeight{
+		height: 350px;	
+	}
+
+	button.rubbishBin:hover{
+		color: darkred;
+	}
+	.cursor{
+		cursor: pointer;
+	}
+	.animate-switch.ng-animate {
+	  -webkit-transition:all linear 0/5s;
+	  transition:all linear 0.5s;
+	}
+	.animate-switch.ng-leave,
+	.animate-switch.ng-leave.ng-leave-active{
+	  display:none;
+	}
+	.animate-switch.ng-enter {
+	  opacity: 0;
+	}
+	.animate-switch.ng-enter.ng-enter-active {
+	  opacity:1;
+	}
+
+
+	li> a{
+		color: #555; 
+		background-color:transparent; 
+		text-decoration:none
+	}
+
+	#removePa{
+		padding: 0;
+	}
+	#removePa1{
+		padding: 0;
+	}
+	.tdWidthxsm{
+		width:50px;
+		white-space: normal !important;		
+	}
+	.tdWidthsm{
+		width:80px;
+		white-space: normal !important;		
+	}
+	.tdWidthmd{
+		width:100px;
+		white-space: normal !important;			
+	}
+	.tdWidthlg{
+		width:120px;
+		white-space: normal; !important;			
+	}	
+}
+
+@media (min-width: 768px) { 
+/*tablet& PC */
+	#nav {
+		width: 16%;
+		background-color: rgb(60,60,60);
+		display: inline-block;
+		float: left;
+
+		padding-top: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 3000px;
+		margin-bottom: -3000px;
+	}
+
+	.navIcon{
+		float:left;
+	}
+
+	* {
+		font-family: 'Trebuchet MS';
+	}
+
+	a:link,a:visited, a:active, a:hover, a {
+    	text-decoration: none;
+    	background-color:transparent;
+	}
+
+	i {
+		vertical-align: middle;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	ul {
+	
+		list-style: none;
+		padding: 0px;
+	}
+
+	li {
+		vertical-align: middle;
+		color: rgb(196,196,196);
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+	}
+
+	li:hover{
+
+		color: rgb(251,251,251);
+	}
+
+	img.profileImg{
+
+		width:180px;
+		height: 220px;
+	}
+
+
+
+	.smallImg{
+
+		height:20px;
+		width:22px;
+	}
+
+	#wrapper {
+
+		padding-right: 0;
+		padding-left: 0;
+  		margin-left: auto;
+  		margin-right: auto;
+  		height: 100%;
+   		display: flex;
+  		flex-direction: column;
+  		overflow: hidden;
+ 		
+	}
+
+
+	#top {
+		background-color: rgb(255,255,255);
+		padding-bottom: 10px;
+		padding-top: 10px;
+		text-align: center;
+	}
+
+	#apiLogo {
+		vertical-align: middle;
+		padding-right: 10px;
+	}
+
+	#topText{
+		vertical-align: middle;
+		font-family: 'Trebuchet MS';
+		font-size: 1.7em;
+	}
+
+
+
+	#content {
+		background-color: rgb(243,243,243);
+		height: 100%;
+		display: inline-block;
+
+	}
+
+
+	#section-header{
+
+		color: rgb(77,77,77);
+		padding-left: 20px;
+	}
+
+	#section {
+
+	/*background-color: rgb(60,60,60);*/
+	}
+	#tab-content{
+
+		background-color: rgb(255,255,255);
+	}
+
+	div.panel-heading.makeWhite{
+		background-color: rgb(255,255,255);
+	}
+
+	.head_txt{
+		width:150px;
+
+	}
+
+	.smallImg{
+
+		height:20px;
+		width:22px;
+	}	
+
+	.smallProfile{
+
+		width: 50px;
+		height: 55px;
+	}
+
+
+	.carousel-control{
+
+		&.left, &.right{
+
+			background-image: none;
+			.reset-filter();
+		}	
+	}
+
+	.left.carousel-control{
+
+		background-image: none;
+		.reset-filter();
+	}
+
+	input#searchBox{
+		vertical-align: middle;
+		width: 125px;
+		margin-left: 64%;
+	}
+	
+
+
+	.panel {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.page-tabs{
+		background-color: white;
+	}	
+	.nav-tabs{
+		margin-bottom: 20px;
+		height: 50px;
+	}
+
+	input.floatRight{
+		margin-left: 64%;
+		width: 200px;
+		display: inline;
+
+	}
+
+	a.btn_sm{
+		padding: 5px, 5px;
+	}
+
+	.fa-star{
+		color: rgb(255,209,51);
+		-webkit-text-stroke-width: 1px;
+     	-webkit-text-stroke-color: rgb(60,60,60);
+	}
+
+
+	li > .fa-star {
+		color: rgb(196,196,196);
+	}
+
+	.floatCtrl {
+		display: flex;
+		justify-content: space-between;		
+		width: 100%;
+	}
+
+	.switch-container {
+		padding-left: 10px;
+		padding-right: 10px;
+
+	}
+	.tab-content > .active {
+
+		padding-top: 20px;
+	}
+	.pdfHeight{
+		height: 400px;	
+	}
+	button.rubbishBin:hover{
+		color: darkred;
+	}	
+	.cursor{
+		cursor: pointer;
+	}		
+	.animate-switch.ng-animate {
+	  -webkit-transition:all linear 0.5s;
+	  transition:all linear 0.5s;
+	}
+	.animate-switch.ng-leave,
+	.animate-switch.ng-leave.ng-leave-active{
+	  display:none;
+	}
+	.animate-switch.ng-enter {
+	  opacity: 0;
+	}
+	.animate-switch.ng-enter.ng-enter-active {
+	  opacity:1;
+	}
+
+	li> a{
+		color: #555; 
+		background-color:transparent; 
+		text-decoration:none
+	}
+		
+}
