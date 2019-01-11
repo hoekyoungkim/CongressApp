@@ -28,5 +28,6 @@ I worked closely to give pleasant both web and mobile experience for users which
 
 * If you find problem finding related codes look out below links
 server and web client: https://github.com/hoekyoungkim/CongressApp/tree/master/server_code
+
 Java codes realted to android app: https://github.com/hoekyoungkim/CongressApp/tree/master/android_code/Congress_repack/app/src/main/java/com/hw9/assignment/baymax/congress
 
