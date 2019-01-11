@@ -8,7 +8,7 @@ Also, I have improved the codes to AngularJS from Javascript afterwards.
 The application that I have created is able to view the current congress members’ informations and their inovolved subjects such as bills or legislators. Data was gotten from the congress API powered by Sunlight foundation.
 
 My work mainly consists of three parts. Server, web client and android. 
-First, server side code(index.php) respond to requests from script or android app and retrieve data from API and passes it to requester.
+First, server side code(index.php) respond to requests from script or android app and retrieve data from API and passes it to requester. 
 Next, web client side codes(script.js, style.css, main.html, and rest of js files) render the data from server and present it to users.
 Finally, android codes supports the same features but with better performance with web application to mobile users.
 
@@ -24,3 +24,9 @@ I worked closely to give pleasant both web and mobile experience for users which
 
 3. Favorite
   you can favoritize items by category(Legislators, Bills and Committees) and review it later. Of course, you can unfavoritize them whenever you want. 
+
+
+* If you find problem finding related codes look out below links
+server and web client: https://github.com/hoekyoungkim/CongressApp/tree/master/server_code
+Java codes realted to android app: https://github.com/hoekyoungkim/CongressApp/tree/master/android_code/Congress_repack/app/src/main/java/com/hw9/assignment/baymax/congress
+
