@@ -1,8 +1,14 @@
 # CongressApp
 Repository for my academic project "CongressApp"
 
-This project is done for the academic purpose for the course CSCI 571.
+This project is done for the academic purpose for the course CSCI 571 at University of Southern California.
 Also, I have improved the codes to AngularJS from Javascript afterwards.
+
+
+<a href="https://github.com/hoekyoungkim/CongressApp/blob/master/Screenshots/WebScreenshot"><img src="https://github.com/hoekyoungkim/CongressApp/blob/master/Screenshots/WebScreenshot.jpg" title="screenshot"/></a>
+<p>
+<a href="https://github.com/hoekyoungkim/CongressApp/blob/master/Screenshots/MobileScreenshot"><img src="https://github.com/hoekyoungkim/CongressApp/blob/master/Screenshots/MobileScreenshot.jpg" title="screenshot"/></a>
+
 
 
 The application that I have created is able to view the current congress members’ informations and their inovolved subjects such as bills or legislators. Data was gotten from the congress API powered by Sunlight foundation.
